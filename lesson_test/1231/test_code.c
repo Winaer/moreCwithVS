@@ -39,7 +39,7 @@ void test1()
     }
     
 
-    printf("you input %d words and %d figures and %d space and %d other!", word, figure, space, other);
+    printf("you input %d words and %d figures and %d space and %d other!\n", word, figure, space, other);
 
 }
 
@@ -58,7 +58,7 @@ void test3()
         date = (float)c/i;
         sum += date;
     }
-    printf("1-1/2+1/3+...+1/99-1/100 = %5.2f", sum);
+    printf("1-1/2+1/3+...+1/99-1/100 = %5.2f\n", sum);
 
 }
 
@@ -120,14 +120,14 @@ void test6()
     {
         for ( j = 0; j < 2; j++)
         {
-            printf("please input the grade of student%d coure%d", i+1, j+1);
+            printf("please input the grade of student%d coure%d\n", i+1, j+1);
             scanf("%d", &a[i][j]);
             average += a[i][j] / 8;
         }
         
     }
     
-    printf("the average of these studentes is %d", average);
+    printf("the average of these studentes is %d\n", average);
 
 }
 
