@@ -27,6 +27,7 @@ void test2()
     printf("*(a+1)+1 =   %p     &(a[1][1]) = %p\n", *(a+1)+1, &(a[1][1]));
     printf("&a[1]+1 =    %p     &(a[2][0])=  %p\n", &a[1]+1, &(a[2][0]));
     printf("*((a+2)+1) = %p     &(a[3][0]) = %p\n", *((a+2)+1), &(a[3][0]) );
+    printf("this is complex logic!\n");
 
 
 }
