@@ -80,7 +80,7 @@ void test4()
 
         if (i == hun*hun + ten*ten + fig*fig)
         {
-            printf("%d is  narcissistic number!", i);
+            printf("%d is  narcissistic number!\n", i);
         }   
     }
 }
